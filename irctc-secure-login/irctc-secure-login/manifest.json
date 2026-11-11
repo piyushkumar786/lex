@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "IRCTC Secure Login Helper",
+  "version": "1.1.0",
+  "description": "Temporarily fills the IRCTC login form without saving your username or password.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.irctc.co.in/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "IRCTC Secure Login Helper"
+  }
+}
