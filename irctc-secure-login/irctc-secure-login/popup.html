@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRCTC Secure Login</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<main>
+<h1>IRCTC Secure Login</h1>
+<form id="loginForm">
+<label for="username">IRCTC User ID</label>
+<input id="username" type="text" autocomplete="off" placeholder="Enter IRCTC User ID" required>
+<label for="password">IRCTC Password</label>
+<div class="password-row">
+<input id="password" type="password" autocomplete="off" placeholder="Enter IRCTC Password" required>
+<button type="button" id="togglePassword" aria-label="Show password">👁</button>
+</div>
+<button type="submit" id="fillButton">Fill & Sign In</button>
+<button type="button" id="clearButton">Clear</button>
+<p id="status" role="status"></p>
+<p id="error" role="alert"></p>
+</form>
+<div class="notice">🔒 Credentials fill only the official IRCTC login form and are not stored. Open <strong>www.irctc.co.in</strong>, click <strong>LOGIN</strong> if needed, then use Fill &amp; Sign In. Captcha/OTP must still be completed on IRCTC.</div>
+<div class="links">
+<a href="https://www.irctc.co.in/eticketing/login" target="_blank" rel="noopener noreferrer">Forgot password?</a>
+<a href="https://www.irctc.co.in/eticketing/registration" target="_blank" rel="noopener noreferrer">Create account</a>
+</div>
+</main>
+<script src="popup.js"></script>
+</body>
+</html>

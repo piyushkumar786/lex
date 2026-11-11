@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{width:320px;margin:0;padding:18px;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f5f7fa;color:#182230}
+main{background:white;padding:18px;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+h1{font-size:18px;margin:0 0 16px;text-align:center}
+label{display:block;font-size:13px;font-weight:600;margin:12px 0 5px}
+input{width:100%;padding:10px;border:1px solid #c8d0d8;border-radius:7px;font-size:14px}
+.password-row{position:relative}
+#togglePassword{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;font-size:15px}
+button{width:100%;padding:11px;margin-top:14px;border:none;border-radius:7px;font-size:14px;font-weight:700;cursor:pointer}
+#fillButton{background:#0b5cab;color:white}
+#clearButton{background:#eef1f4;color:#33475b}
+#fillButton:disabled{opacity:.6;cursor:not-allowed}
+.notice{margin-top:16px;padding:10px;font-size:12px;border-radius:7px;background:#eaf3ff;color:#24425d}
+.links{display:flex;justify-content:space-between;margin-top:12px;font-size:12px}
+.links a{color:#0b5cab;text-decoration:none}
+#error{margin:10px 0 0;color:#b3261e;font-size:13px;font-weight:600}
+#status{margin:10px 0 0;color:#1b6e3c;font-size:13px;font-weight:600}
